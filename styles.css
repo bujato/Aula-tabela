@@ -1,0 +1,47 @@
+body{
+    background-color: #45214A;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(238, 238, 71);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.corpo{
+    position: relative;
+    padding: 10px;
+    border: 10px;
+    margin: 5px;
+    background-color:#21445B;
+    border-radius: 5px;
+
+}
+
+.um{
+    color:#F2E3D5;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+s{
+    color: #1398c0fd;
+}
+.dois{
+    color: #F2E3D5;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tres{
+    color:#F2E3D5;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+mark{
+    background-color: #3CA6A6;
+    color: #e6e6e6;
+    border-radius: 5px;
+}
+details{
+    color:#F2E3D5;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

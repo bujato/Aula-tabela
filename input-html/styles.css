@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(to right, #fbee97, #adedd5); 
+}
+
+.login{
+    padding: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #45C4B0;
+    text-shadow: 0px 3px #45c4b13b;
+    font-family: 'Comfortaa'
+}
+
+.caixa{
+    background-color: black; 
+    width: 370px;
+    height: 430px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+}
+
+.email {
+    border: solid 5px 5px #45C4B0;
+    color: #000000;
+    margin: 15px;
+    background: none;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: solid 1.5px #02011b;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+}
+.um {
+    font-family: 'Comfortaa', cursive;
+    color: #000000;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    left: 16px;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.email:focus{
+    overflow: hidden;
+    outline: none;
+    border: 1.5px solid;
+}
+.email:focus ~ label  {
+    transform: translateY(-50%) scale(0.8);
+    padding: 0 0.2em;
+}
+
+.senha {
+    border: solid 5px 5px #45C4B0;
+    color: #000000;
+    margin: 15px;
+    background: none;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: solid 1.5px #02011b;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+    
+}
+.dois {
+    color: #000000;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    left: 16px;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.senha:focus{
+    overflow: hidden;
+    outline: none;
+    border: 1.5px solid;
+}
+.senha:focus ~ label  {
+    transform: translateY(-50%) scale(0.8);
+    padding: 0 0.2em;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #45C4B0;
+    font-family: 'Comfortaa', cursive;
+}
+button:hover{
+    background-color:#45c4b1ad;
+}
+
